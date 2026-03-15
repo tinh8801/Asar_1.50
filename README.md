@@ -18,3 +18,5 @@ That's it!
 http://www.smwcentral.net/?p=section&a=details&id=6000
 
 http://www.smwcentral.net/?p=viewthread&t=51349
+
+https://github.com/AndreaOrru/Asar

@@ -1,8 +1,9 @@
 from os import environ
 
-env = Environment(ENV = {'TERM': environ['TERM']},
-                  CPPFLAGS = ['-Dlinux',
+env = Environment(
+                  CXXFLAGS = ['-Os',
+			      '-Dlinux',
                               '-DINTERFACE_CLI',
                               '-Dstricmp=strcasecmp'])
-
+print(env)
 env.Program('asar', Glob('src/*.cpp'))
